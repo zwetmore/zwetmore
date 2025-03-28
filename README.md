@@ -1,16 +1,19 @@
-## Hi there 👋
+## Welcome to my GitHub
 
-<!--
-**zwetmore/zwetmore** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+My name is Zach Wetmore and I am a student at the University of Minnesota.
+I am studying Mathematics - Actuarial Science, Computer Science, and I have a minor in Statistics. 
 
-Here are some ideas to get you started:
+email: zwetmore33@gmail.com
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I am currently working on a mutual fund analysis project for a financial advising firm. 
+
+If you would like to see more code written by me, please request access to my email.
+I have completed projects/coursework with private repos related to:
+- Operating Systems (C)
+- Machine Learning Models (Python: numpy, pandas, pytorch, scikit-learn, and seaborn)
+   - Fundamentals of Machine Learning
+   - Applied Machine Learning
+- Advanced Algorithms/Functional Programming (OCaml)
+- Graphics (TypeScript/JavaScript with GopherGFX a UMN graphics package)
+ 
+
