@@ -19,4 +19,4 @@ I have experience with a variety of programming languages and frameworks, includ
 - **Computer Graphics (TypeScript/JavaScript with GopherGFX)** – Interactive 3D graphics and rendering  
 
 ### **Want to See More?**  
-Many of my projects are in private repositories. If you're interested in viewing specific work, feel free to **request access via email**!  
+Many of my projects are in private repositories due to academic integrity. If you're interested in viewing specific work, feel free to **request access via email**!  
