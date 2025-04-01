@@ -1,19 +1,21 @@
-## Welcome to my GitHub
+## **Welcome to My GitHub!**  
 
-My name is Zach Wetmore and I am a student at the University of Minnesota.
-I am studying Mathematics - Actuarial Science, Computer Science, and I have a minor in Statistics. 
+Hi, I'm **Zach Wetmore**, a student at the **University of Minnesota**, pursuing a degree in **Mathematics - Actuarial Science** and **Computer Science**, with a minor in **Statistics**.  
 
-email: zwetmore33@gmail.com
+📧 **Contact:** zwetmore33@gmail.com  
 
-I am currently working on a mutual fund analysis project for a financial advising firm. 
+### **What I'm Working On**  
+I'm currently developing a **mutual fund analysis project** for a financial advising firm, leveraging my skills in data analysis, machine learning, and quantitative finance.  
 
-If you would like to see more code written by me, please request access to my email.
-I have completed projects/coursework with private repos related to:
-- Operating Systems (C)
-- Machine Learning Models (Python: numpy, pandas, pytorch, scikit-learn, and seaborn)
-   - Fundamentals of Machine Learning
-   - Applied Machine Learning
-- Advanced Algorithms/Functional Programming (OCaml)
-- Graphics (TypeScript/JavaScript with GopherGFX a UMN graphics package)
- 
+### **My Technical Experience**  
+I have experience with a variety of programming languages and frameworks, including:  
 
+- **Systems Programming (C)** – OS development and low-level computing  
+- **Machine Learning (Python)** – numpy, pandas, PyTorch, scikit-learn, seaborn  
+  - *Fundamentals of Machine Learning*  
+  - *Applied Machine Learning*  
+- **Algorithms & Functional Programming (OCaml)** – Advanced algorithms, recursion, and functional paradigms  
+- **Computer Graphics (TypeScript/JavaScript with GopherGFX)** – Interactive 3D graphics and rendering  
+
+### **Want to See More?**  
+Many of my projects are in private repositories. If you're interested in viewing specific work, feel free to **request access via email**!  
