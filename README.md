@@ -5,7 +5,7 @@ Hi, I'm **Zach Wetmore**, a student at the **University of Minnesota**, pursuing
 📧 **Contact:** zwetmore33@gmail.com  
 
 ### **What I'm Working On**  
-I'm currently developing a **mutual fund analysis project** for a financial advising firm, leveraging my skills in data analysis, machine learning, and quantitative finance.  
+I'm currently developing a **mutual fund analysis project** for a financial advising firm, leveraging my skills in statistics, data analysis, financial math, and computer science. 
 
 ### **My Technical Experience**  
 I have experience with a variety of programming languages and frameworks, including:  
