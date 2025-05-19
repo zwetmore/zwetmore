@@ -1,11 +1,18 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+/* Reset margin and padding */
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #e5e5e5; /* Light grey background */
+    font-family: "Segoe UI", Arial, sans-serif; /* Cleaner, modern font */
+}
+
+/* Main content area */
+main {
     max-width: 800px;
     margin: 0 auto;
     padding: 0 20px;
-    background-color: #f9f9f9;
     color: #333;
+    line-height: 1.6;
 }
 
 h1, h2 {
@@ -13,11 +20,11 @@ h1, h2 {
     margin-top: 30px;
 }
 
-ul {
+main ul {
     padding-left: 20px;
 }
 
-ul ul {
+main ul ul {
     margin-top: 5px;
 }
 
@@ -55,8 +62,13 @@ nav {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+/* Hover style: gold background + maroon text */
 .navbar a:hover {
-    text-decoration: underline;
+    background-color: gold;
+    color: maroon;
+    border-radius: 4px;
 }
