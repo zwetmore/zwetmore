@@ -6,50 +6,208 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="navbar" >
-        <a href="#welcome">Welcome</a>
-        <a href="#software">Software Experience</a>
-        <a href="#actuarial">Actuarial Experience</a>
-        <a href="#resume">Resume</a>
-        <a href="#contact">Contact Me</a>
+    <div class="navbar">
+        <a href="#" data-section="welcome">Welcome</a>
+        <a href="#" data-section="software">Software Experience</a>
+        <a href="#" data-section="actuarial">Actuarial Experience</a>
+        <a href="#" data-section="resume">Resume</a>
+        <a href="#" data-section="contact">Contact Me</a>
     </div>
 
     <main>
-        <section id="welcome">
+        <section id="welcome" class="content-section active">
             <h1>Welcome to My GitHub</h1>
-            <p>Hi, I'm <strong>Zach Wetmore</strong>. I graduated with distinction from the <strong>University of Minnesota</strong> with degrees in <strong>Mathematics – Actuarial Science</strong> and <strong>Computer Science</strong>, and a minor in <strong>Statistics</strong>.</p>
-        </section>
-
-        <section id="software">
-            <h2>Software Experience</h2>
+            <p>Hi, I'm <strong>Zach Wetmore</strong> — a recent graduate from the 
+                <strong>University of Minnesota</strong> with distinction, holding degrees in 
+                <strong>Mathematics – Actuarial Science</strong> and <strong>Computer Science</strong>, 
+                and a minor in <strong>Statistics</strong>.
+            </p>
+        
+            <h2>About Me</h2>
+            <p>
+                I'm passionate about solving complex problems at the intersection of data, technology, and real-world impact.
+                Whether it's using code to model financial risk, building machine learning tools, or optimizing performance in software systems,
+                I love combining logic and creativity to make things work better.
+            </p>
+            <p>
+                Outside of code and calculus, I’m deeply interested in fitness, endurance training, and continuous personal development — 
+                I believe that a sharp mind and a disciplined body go hand in hand.
+            </p>
+        
+            <h2>Current Projects</h2>
             <ul>
-                <li><strong>Object-Oriented Programming (C++/Java)</strong> - Encapsulation, Inheritance, Polymorphism</li>
-                <li><strong>Systems Programming (C)</strong> - OS development and low-level computing</li>
-                <li><strong>Machine Learning (Python)</strong> - numpy, pandas, PyTorch, scikit-learn, seaborn
-                    <ul>
-                        <li>Fundamentals of Machine Learning</li>
-                        <li>Applied Machine Learning</li>
-                    </ul>
+                <li>
+                    <strong>Movie Ranking Web App</strong> — A feature-rich movie database app inspired by IMDb,
+                    where users can log, rate, review, and explore films with personalized insights and sorting features.
                 </li>
-                <li><strong>Algorithms & Functional Programming (OCaml/Java)</strong> - Advanced algorithms, recursion, data structures</li>
-                <li><strong>Computer Graphics (TypeScript/JavaScript with GopherGFX)</strong> - Interactive 3D graphics and rendering</li>
+                <li>
+                    <strong>Spotify–Apple Music Transition Tool</strong> — A utility that helps users sync and migrate playlists between Spotify and Apple Music,
+                    maintaining metadata, track order, and handling unlisted or unavailable songs.
+                </li>
+                <li>
+                    <strong>Mutual Fund Analysis Tool</strong> — A data-driven application built for a financial advising firm, 
+                    designed to evaluate fund performance, risk metrics, and long-term efficiency using Python, pandas, and statistical modeling.
+                </li>
+            </ul>
+        
+        </section>
+        
+
+        <section id="software" class="content-section">
+            <h2>Software Experience</h2>
+            <p>
+                I have a strong foundation in both theoretical and applied computer science, with hands-on experience across a wide range of software development domains.
+                My skill set spans systems programming, object-oriented design, machine learning, graphics, and functional programming—enabling me to build scalable, efficient, and well-structured solutions from the ground up.
+                At Colder Products Company, I served as the sole developer of an internal application, building a C# .NET system using Windows Forms.
+                I also worked as a software developer at Allianz - Life, contributing to the Risk Agility FM platform by developing and maintaining software in C++, Python Web Applications (with Django), and .NET Windows Forms.
+            </p>
+        
+            
+        
+            <h3>Languages & Programming Paradigms</h3>
+            <ul>
+                <li><strong>Python</strong> — Data analysis, machine learning, web development, automation</li>
+                <li><strong>C, C++</strong> — Systems programming, memory management, threading, and process management</li>
+                <li><strong>C#</strong> — GUI development with Windows Forms, XML serialization, layered (MVC-like) architecture</li>
+                <li><strong>Java</strong> — Object-oriented design, software architecture, design patterns</li>
+                <li><strong>OCaml</strong> — Functional programming, recursion/tail recursion, immutable data structures</li>
+                <li><strong>SQL</strong> — Querying, filtering, joining datasets in relational databases</li>
+                <li><strong>TypeScript/JavaScript</strong> — Web development, 3D graphics (GopherGFX), UI interaction</li>
+                <li><strong>AppleScript</strong> — Scripting and automation for Apple Music playlist management</li>
+                <li><strong>MATLAB, Excel</strong> — Mathematical modeling, statistical computation, actuarial tools</li>
+                <li><strong>HTML/CSS</strong> — Web development, responsive design, GitHub Pages integration</li>
+            </ul>
+        
+            <h3>Python Package Experience</h3>
+            <ul>
+                <li><strong>NumPy, pandas</strong> — Data analysis, numerical computing, ML modeling</li>
+                <li><strong>scikit-learn, PyTorch</strong> — ML models, classification, regression, neural networks</li>
+                <li><strong>seaborn, matplotlib, SciPy</strong> — Visualization, hypothesis testing, statistical analysis</li>
+                <li><strong>Django, Flask</strong> — Web app development, routing, templating</li>
+                <li><strong>OpenAI, Cursor</strong> — Generative AI toolchains for code generation, natural language prompting, and rapid prototyping</li>
+                <li><strong>XML, JSON</strong> — Structured data serialization and parsing for configuration and data management</li>
+            </ul>
+        
+            <h3>Version Control</h3>
+            <ul>
+                <li><strong>Git</strong> — Branching strategies, merge conflict resolution, commit hygiene</li>
+                <li><strong>GitHub</strong> — Project hosting, pull requests, GitHub Actions for CI/CD</li>
+                <li><strong>Subversion (SVN)</strong> — Source code management in corporate environments</li>
+            </ul>
+        
+            <h3>Software Engineering Practices</h3>
+            <ul>
+                <li><strong>Agile/Scrum</strong> — Sprint planning, daily standups, retrospectives, collaborative teamwork</li>
+                <li><strong>CI/CD</strong> — Automated testing, build pipelines, staged deployment </li>
+                <li><strong>Docker</strong> — Containerized applications for consistent execution and easy deployment</li>
+                <li><strong>Multi-threading</strong> — Implemented in Spotify migration project to optimize API interaction</li>
+                <li><strong>ETL Pipelines</strong> — Built in Python for data ingestion and transformation (sports analytics)</li>
+                <li><strong>Testing</strong> — Unit testing, integration testing, test-driven development (TDD)</li>
+                <li><strong>Full Software Development Lifecycle</strong> — Requirements gathering, architecture, development, deployment, and support</li>
+            </ul>
+        
+            <h3>Additional Highlights</h3>
+            <ul>
+                <li><strong>Risk Agility FM</strong> — C++-based actuarial modeling and system optimization</li>
+                <li><strong>Effective Communication</strong> — Delivered team presentations and collaborated cross-functionally during internships</li>
+            </ul>
+
+            <blockquote style="margin-top: 20px; font-style: italic; color: #555;">
+                "Premature optimization is the root of all evil." — Donald Knuth<br>
+                — Zach Wetmore
+            </blockquote>
+        </section>
+        
+
+        <section id="actuarial" class="content-section">
+            <h2>Actuarial Experience</h2>
+            <p>
+                I have strong experience applying actuarial concepts in both corporate and project-based settings. 
+                As a Modeling & Systems Intern at <strong>Allianz Life</strong>, I optimized actuarial models using 
+                <strong>Risk Agility FM</strong>, C++, and Excel, focusing on improving extensibility, efficiency, and maintainability. I worked on optimizing a <strong>Black-Scholes model </strong>projection engine, reducing its runtime complexity from squared to linear time for a majority of the model's calculations. I also enhanced a web application for a parallel processing engine using the <strong>Django</strong> framework to support large-scale model projections.
+            </p>
+            <p>
+                Outside of formal internships, I've built a <strong>mutual fund analysis tool</strong> for a financial advising firm that evaluates fund performance, risk metrics, and long-term efficiency using Python, pandas, and statistical modeling.
+            </p>
+        
+            <h3>Exams Passed</h3>
+            <ul>
+                <li><strong>Exam P</strong> - Probability</li>
+                <li><strong>Exam FM</strong> - Financial Mathematics</li>
+            </ul>
+        
+            <h3>Corporate & Technical Skills</h3>
+            <ul>
+                <li><strong>Risk Agility FM</strong> - Model optimization and projection execution</li>
+                <li><strong>Django</strong> - Web development for internal actuarial tooling</li>
+                <li><strong>Excel & VBA</strong> - Spreadsheet modeling, automation, data analysis</li>
+                <li><strong>Agile/Scrum</strong> - Experience working in sprint-based environments with retrospectives and collaborative planning</li>
+                <li><strong>Presentation & Communication</strong> - Delivered technical insights to both technical and non-technical stakeholders during internship reviews and team meetings</li>
+                <li><strong>Cross-functional Collaboration</strong> - Worked with actuaries, software engineers, and data analysts to improve system performance and usability</li>
+                <p>For additional relevant technical experience, please see the <a href="#" data-section="software">Software Experience</a> section.</p>
+
             </ul>
         </section>
+        
 
-        <section id="actuarial">
-            <h2>Actuarial Experience</h2>
-            <p>I'm currently developing a <strong>mutual fund analysis project</strong> for a financial advising firm, leveraging my background in statistics, financial math, and data analysis.</p>
-        </section>
-
-        <section id="resume">
+        <section id="resume" class="content-section">
             <h2>Resume</h2>
-            <p><a href="ZachWetmoreResume2025.pdf" target="_blank">View my resume (PDF)</a></p>
+            <div style="margin-top: 20px;">
+                <a href="ZachWetmoreResume2025.pdf" 
+                   target="_blank" 
+                   rel="noopener noreferrer" 
+                   data-ignore="true"
+                   style="
+                       display: inline-flex;
+                       align-items: center;
+                       padding: 10px 15px;
+                       background-color: #2c3e50;
+                       color: white;
+                       text-decoration: none;
+                       border-radius: 6px;
+                       font-weight: bold;
+                       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+                       transition: background-color 0.3s ease;
+                   "
+                   onmouseover="this.style.backgroundColor='#1a252f'" 
+                   onmouseout="this.style.backgroundColor='#2c3e50'">
+                    <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png"
+                         alt="Resume PDF" 
+                         style="height:20px; margin-right:10px; vertical-align:middle;">
+                    View My Resume (PDF)
+                </a>
+            </div>
         </section>
+        
 
-        <section id="contact">
+        <section id="contact" class="content-section">
             <h2>Contact Me</h2>
-            <p><strong>Email:</strong> zwetmore33@gmail.com</p>
+            <p><strong>Email:</strong> <a>zwetmore33@gmail.com</a></p>
+            <p><strong>Phone:</strong> <a>507-573-3576</a></p>
+        
+            <div style="margin-top: 20px;">
+                <p>
+                    <a href="https://www.linkedin.com/in/zach-wetmore-76912a253/" target="_blank" rel="noopener noreferrer" data-ignore="true" style="color: #0072b1; text-decoration: underline;">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" 
+                             alt="LinkedIn" 
+                             style="height:20px; vertical-align:middle; margin-right:8px;">
+                        Connect with me on LinkedIn
+                    </a>
+                </p>
+                <p>
+                    <a href="https://github.com/zwetmore" target="_blank" rel="noopener noreferrer" data-ignore="true" style="color: #0366d6; text-decoration: underline;">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" 
+                             alt="GitHub" 
+                             style="height:20px; vertical-align:middle; margin-right:8px;">
+                        View my GitHub profile
+                    </a>
+                </p>
+            </div>
         </section>
+        
+        
     </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
