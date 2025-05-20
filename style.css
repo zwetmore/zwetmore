@@ -95,19 +95,3 @@ blockquote {
     color: #555;
     line-height: 1.6;
 }
-
-
-blockquote::before {
-    content: "“";
-    font-size: 2rem;
-    color: #aaa;
-    margin-right: 10px;
-}
-
-blockquote::after {         
-    content: "”";
-    font-size: 2rem;
-    color: #aaa;
-    margin-left: 10px;
-}
-
